@@ -1,0 +1,7 @@
+Parsed Tree 
+Node: test Level: 0 Type: Open tag
+Node: test1 Level: 1 Type: Open tag
+Node: test2 Level: 2 Type: Open tag
+Node: test2 Level: 2 Type: Closing Tag
+Node: test1 Level: 1 Type: Closing Tag
+Node: test Level: 1 Type: Closing Tag

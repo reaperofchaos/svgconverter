@@ -1,0 +1,34 @@
+	{ 
+		"name": "test",
+		"level": "0",
+		"type": "Open tag",
+		"children": [
+		{ 
+			"name": "test1",
+			"level": "1",
+			"type": "Open tag",
+			"children": [
+			{ 
+				"name": "test2",
+				"level": "2",
+				"type": "Open tag"
+			},
+			{ 
+				"name": "test2",
+				"level": "2",
+				"type": "Closing Tag"
+			}
+			]
+		},
+		{ 
+			"name": "test1",
+			"level": "1",
+			"type": "Closing Tag"
+		},
+		{ 
+			"name": "test",
+			"level": "1",
+			"type": "Closing Tag"
+		}
+		]
+	}

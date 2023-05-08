@@ -1,0 +1,13 @@
+test1.txt - basic vertical tree with only one child per level
+test2.txt - vertical tree with one level with multiple child elements
+test3.txt - tests self-closing tags nested in levels
+test4.txt - images
+test5.txt - basic html with paragraphs
+test6.txt - Comments
+test7.txt - lists
+test8.txt - anchor tags
+test9.txt - embedded styles
+test10.txt - tables
+test11.txt - svg
+test12.txt - embeddedSvg
+test13.txt - jsx

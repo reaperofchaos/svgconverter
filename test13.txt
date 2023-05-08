@@ -1,0 +1,14 @@
+<Box sx={{display: 'flex', 
+    flexDirection: 'row', 
+    justifyContent: 'center', 
+    alignItems: 'center'}}>
+    <Button onClick={()=>{}} >
+        Click Me!
+    </Button>
+    {console.log('This is a test')}
+    {isVisible && (
+        <TextField>
+            This is visible
+        </TextField>
+    )}
+</Box>

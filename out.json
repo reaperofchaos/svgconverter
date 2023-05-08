@@ -1,34 +1,332 @@
 	{ 
-		"name": "test",
+		"name": "xml",
 		"level": "0",
-		"type": "Open tag",
+		"type": "Prolog Tag",
+		"props": [
+			{
+				"name": "version", 
+				"type": "String prop", 
+				"value": "1.0", 
+				"value-type": "String"
+			},
+			{
+				"name": "encoding", 
+				"type": "String prop", 
+				"value": "UTF-8", 
+				"value-type": "String"
+			}
+		],
 		"children": [
 		{ 
-			"name": "test1",
+			"name": "svg",
 			"level": "1",
 			"type": "Open tag",
+			"props": [
+				{
+					"name": "id", 
+					"type": "String prop", 
+					"value": "Layer_1", 
+					"value-type": "String"
+				},
+				{
+					"name": "dat", 
+					"type": "Boolean prop", 
+					"value": "true", 
+					"value-type": "Boolean"
+				},
+				{
+					"name": "a-name", 
+					"type": "String prop", 
+					"value": "Layer 1", 
+					"value-type": "String"
+				},
+				{
+					"name": "xmlns", 
+					"type": "String prop", 
+					"value": "http://www.w3.org/2000/svg", 
+					"value-type": "String"
+				},
+				{
+					"name": "viewBox", 
+					"type": "String prop", 
+					"value": "0 0 48 48", 
+					"value-type": "String"
+				}
+			],
 			"children": [
 			{ 
-				"name": "test2",
+				"name": "defs",
 				"level": "2",
-				"type": "Open tag"
+				"type": "Open tag",
+				"children": [
+				{ 
+					"name": "style",
+					"level": "3",
+					"type": "Open tag",
+					"children": [
+					{ 
+						"name": ".cls-1 {        letter-spacing: 0em;}.cls-1, .cls-2, .cls-3, .cls-4 {        fill: #9b9a9a;}.cls-5 {        letter-spacing: 0em;}.cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {        fill: #231f20;}.cls-7 {        letter-spacing: 0em;}.cls-10 {        fill: #d3d3d3;stroke: #0d0d0d;stroke-miterlimit: 10;}.cls-3 {        letter-spacing: -.03em;}.cls-11 {        font-family: MyriadPro-Regular, Myriad Pro;font-size: 2.5px;}.cls-8 {        letter-spacing: -.03em;}.cls-4 {        letter-spacing: 0em;}.cls-9 {        letter-spacing: 0em;}",
+						"level": "4",
+						"type": "Nested string"
+					}
+					]
+				},
+				{ 
+					"name": "style",
+					"level": "3",
+					"type": "Closing Tag"
+				}
+				]
 			},
 			{ 
-				"name": "test2",
+				"name": "defs",
 				"level": "2",
 				"type": "Closing Tag"
+			},
+			{ 
+				"name": "rect",
+				"level": "2",
+				"type": "Self closing tag",
+				"props": [
+					{
+						"name": "class", 
+						"type": "String prop", 
+						"value": "cls-10", 
+						"value-type": "String"
+					},
+					{
+						"name": "x="4.17"", 
+						"type": "Boolean prop", 
+						"value": "true", 
+						"value-type": "Boolean"
+					},
+					{
+						"name": "y="5.06"", 
+						"type": "Boolean prop", 
+						"value": "true", 
+						"value-type": "Boolean"
+					},
+					{
+						"name": "width", 
+						"type": "String prop", 
+						"value": "39.67", 
+						"value-type": "String"
+					},
+					{
+						"name": "height", 
+						"type": "String prop", 
+						"value": "31.16", 
+						"value-type": "String"
+					}
+				]
+			},
+			{ 
+				"name": "text",
+				"level": "2",
+				"type": "Open tag",
+				"props": [
+					{
+						"name": "class", 
+						"type": "String prop", 
+						"value": "cls-11", 
+						"value-type": "String"
+					},
+					{
+						"name": "transform", 
+						"type": "String prop", 
+						"value": "translate(4.86 41.68) scale(.83 1)", 
+						"value-type": "String"
+					}
+				],
+				"children": [
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Open tag",
+					"props": [
+						{
+							"name": "class", 
+							"type": "String prop", 
+							"value": "cls-6", 
+							"value-type": "String"
+						},
+						{
+							"name": "x="0"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						},
+						{
+							"name": "y="0"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						}
+					],
+					"children": [
+					{ 
+						"name": "Uploaded ",
+						"level": "4",
+						"type": "Nested string"
+					}
+					]
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Closing Tag"
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Open tag",
+					"props": [
+						{
+							"name": "class", 
+							"type": "String prop", 
+							"value": "cls-8", 
+							"value-type": "String"
+						},
+						{
+							"name": "x="10.82"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						},
+						{
+							"name": "y="0"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						}
+					],
+					"children": [
+					{ 
+						"name": "F",
+						"level": "4",
+						"type": "Nested string"
+					}
+					]
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Closing Tag"
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Open tag",
+					"props": [
+						{
+							"name": "class", 
+							"type": "String prop", 
+							"value": "cls-7", 
+							"value-type": "String"
+						},
+						{
+							"name": "x="11.97"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						},
+						{
+							"name": "y="0"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						}
+					],
+					"children": [
+					{ 
+						"name": "iles (",
+						"level": "4",
+						"type": "Nested string"
+					}
+					]
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Closing Tag"
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Open tag",
+					"props": [
+						{
+							"name": "class", 
+							"type": "String prop", 
+							"value": "cls-9", 
+							"value-type": "String"
+						},
+						{
+							"name": "x="16.63"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						},
+						{
+							"name": "y="0"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						}
+					],
+					"children": [
+					{ 
+						"name": "M",
+						"level": "4",
+						"type": "Nested string"
+					}
+					]
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Closing Tag"
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Open tag",
+					"props": [
+						{
+							"name": "class", 
+							"type": "String prop", 
+							"value": "cls-5", 
+							"value-type": "String"
+						},
+						{
+							"name": "x="18.66"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						},
+						{
+							"name": "y="0"", 
+							"type": "Boolean prop", 
+							"value": "true", 
+							"value-type": "Boolean"
+						}
+					],
+					"children": [
+					{ 
+						"name": "ax: 1):",
+						"level": "4",
+						"type": "Nested string"
+					}
+					]
+				},
+				{ 
+					"name": "tspan",
+					"level": "3",
+					"type": "Closing Tag"
+				}
+				]
 			}
 			]
-		},
-		{ 
-			"name": "test1",
-			"level": "1",
-			"type": "Closing Tag"
-		},
-		{ 
-			"name": "test",
-			"level": "1",
-			"type": "Closing Tag"
 		}
 		]
 	}

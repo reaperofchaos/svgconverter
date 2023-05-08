@@ -1,7 +1,25 @@
 Parsed Tree 
-Node: test Level: 0 Type: Open tag
-Node: test1 Level: 1 Type: Open tag
-Node: test2 Level: 2 Type: Open tag
-Node: test2 Level: 2 Type: Closing Tag
-Node: test1 Level: 1 Type: Closing Tag
-Node: test Level: 1 Type: Closing Tag
+Node: xml Level: 0 Type: Prolog Tag
+Node: svg Level: 1 Type: Open tag
+Node: defs Level: 2 Type: Open tag
+Node: style Level: 3 Type: Open tag
+Node: .cls-1 {        letter-spacing: 0em;}.cls-1, .cls-2, .cls-3, .cls-4 {        fill: #9b9a9a;}.cls-5 {        letter-spacing: 0em;}.cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {        fill: #231f20;}.cls-7 {        letter-spacing: 0em;}.cls-10 {        fill: #d3d3d3;stroke: #0d0d0d;stroke-miterlimit: 10;}.cls-3 {        letter-spacing: -.03em;}.cls-11 {        font-family: MyriadPro-Regular, Myriad Pro;font-size: 2.5px;}.cls-8 {        letter-spacing: -.03em;}.cls-4 {        letter-spacing: 0em;}.cls-9 {        letter-spacing: 0em;} Level: 4 Type: Nested string
+Node: style Level: 3 Type: Closing Tag
+Node: defs Level: 2 Type: Closing Tag
+Node: rect Level: 2 Type: Self closing tag
+Node: text Level: 2 Type: Open tag
+Node: tspan Level: 3 Type: Open tag
+Node: Uploaded  Level: 4 Type: Nested string
+Node: tspan Level: 3 Type: Closing Tag
+Node: tspan Level: 3 Type: Open tag
+Node: F Level: 4 Type: Nested string
+Node: tspan Level: 3 Type: Closing Tag
+Node: tspan Level: 3 Type: Open tag
+Node: iles ( Level: 4 Type: Nested string
+Node: tspan Level: 3 Type: Closing Tag
+Node: tspan Level: 3 Type: Open tag
+Node: M Level: 4 Type: Nested string
+Node: tspan Level: 3 Type: Closing Tag
+Node: tspan Level: 3 Type: Open tag
+Node: ax: 1): Level: 4 Type: Nested string
+Node: tspan Level: 3 Type: Closing Tag
